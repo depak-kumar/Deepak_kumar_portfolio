@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Deepak Kumar</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Deepak Kumar</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="https://th.bing.com/th/id/OIP.3CQSSBrsjL0oUXBNUhgh_gAAAA?w=188&h=282&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Deepak Kumar</h1>
+            <p class="section__text__p2">Machine Learning Intern</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./Resume Deepak kumar .pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./linkedin.png" alt="My LinkedIn profile" class="icon"
+                    onclick="location.href='https://linkedin.com/'" />
+                <img src="./github.png" alt="My Github profile" class="icon"
+                    onclick="location.href='https://github.com/'" />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="https://th.bing.com/th/id/OIP.91TZsf7mZidi68IOzMY6ewHaE8?w=237&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./experience.png" alt="Experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>2+ Interships <br />Machine learning And Artificial Intelligence</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>Bachelor of Technology(B.TECH) In Computer Science engineering Specialisation in <b>Artificial Intelligence And Machine Learning</b><br /></p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        I am a dedicated and enthusiastic B.Tech student currently in my Third year of study.I am passionate about leveraging my skills to contribute to the field of <b>Artificial Intelligence and Machine Learning</b>. I possess excellent problem-solving abilities, a keen eye for detail, and a drive for continuous learning. With a strong work ethic and a collaborative mindset, I am eager to embark on new challenges and make a positive impact in the world of technology.
+                        I Am seeking a challenging internship opportunity to apply and enhance my technical skills and knowledge in a real-world professional setting specially in the field of Artificial Intelligence and Machine Learning. I am  eager to learn, and passionate about coding. My aim to gain valuable experience and further enhance my skills in the field of Artificial Intelligence And Machine Learning.
+                       
+                       
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Web Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>SASS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intemediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Bootstrap </h3>
+                                <p>Expierenced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Core Foundation</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>C Programming</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>C++ Programming Language</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Object-Oriented Programming </h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Data Strctures</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <section id="experience">
+            <!-- <p class="section__text__p1">Explore My</p> -->
+            <h1 class="title"></h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Machine Learning</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Pandas</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Numpy</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Scikit-Learn</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Seaborn</h3>
+                                    <p>Intemediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Matplotlib</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Machine Learning Allgorithms</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Artificial Intelligence</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Artificial Neural Networks</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>OpenCV</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <!-- <article>
+                                <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Object-Oriented Programming </h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Data Strctures</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+
+     
+        <img src="./arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://th.bing.com/th/id/R.f96889c0a9e2d95691261b8f895ed7cb?rik=Ln%2f20gV7%2bVoSRw&riu=http%3a%2f%2fpaintballreservations.com%2fpaintball-fields%2fwashington%2fmonkey-time-paintball-airsoft%2fimages%2fbreast-cancer.jpg&ehk=uN3n3FNnITv5nvz1s4eqakx9w5HNI%2f6nojj227nJbrs%3d&risl=&pid=ImgRaw&r=0" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Breast Cancer Prediction</h2>
+                    <P>Breast cancer is a dangerous disease for women. If it does not identify in the early-stage then the result will be the death of the patient. </P>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://depak-kumar.github.io/Machine-Learn-Breast/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://th.bing.com/th/id/OIP.kWsCDTmLQ4tBj6X3yXA4UAHaGQ?pid=ImgDet&rs=1" alt="Hotel Website" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Hotel Website</h2>
+                    <p>
+                        Welcome to Villa's Hotel, where luxury meets comfort. Our meticulously crafted hotel website template showcases the perfect blend of style and functionality. 
+                        </p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://depak-kumar.github.io/Villa-s-Hotel-website/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://th.bing.com/th/id/OIP.fOsvo_DtgQ-xAqXX_rH36gHaEK?w=331&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Food Bogging Template</h2>
+                    <p>A Meticulously crafted food website template designed using Bootstrap, HTML, and CSS. 
+                    </p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://depak-kumar.github.io/bootstrpapproject2/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:examplemail@gmail.com">deepakrana2411@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Deepak Kumar. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
